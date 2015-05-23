@@ -51,9 +51,6 @@ public class AlbumAdapter extends BaseAdapter
 		int id = mAlbumList.get(position);
 		imv.setImageResource(id);	
 		imv.setId(id);
-//		LayoutParams params = new LayoutParams();
-//		params.height = params.width = 40;
-//		imv.setLayoutParams(params);
 		imv.setScaleType(ScaleType.FIT_XY);
 		return imv;
 	}

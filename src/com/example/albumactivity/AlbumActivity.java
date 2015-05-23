@@ -14,13 +14,12 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-//import android.widget.FrameLayout.LayoutParams;
+
 import android.widget.GridView;
 import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
-//import android.widget.RelativeLayout.LayoutParams;
 
 public class AlbumActivity extends Activity {
 
@@ -54,10 +53,6 @@ public class AlbumActivity extends Activity {
 		mGridView = (GridView)findViewById(R.id.gridView1);
 		mGridView.setAdapter(mAdapter);
 	
-	//	android.view.ViewGroup.LayoutParams params;
-		//params = LayoutParams.
-		//LayoutParams params = 
-		//v.setLayoutParams);
 		LayoutInflater inflater;
 
 	    inflater=getLayoutInflater();
@@ -95,12 +90,6 @@ public class AlbumActivity extends Activity {
 			inLay.addView(imv);
 		}
 
-//		vv.setColumnWidth(columnWidth);
-		
-	//	adapter.registerDataSetObserver(new TestAlbum());
-	//	adapter.notifyDataSetChanged--
-		
-	//	adapter.unregisterDataSetObserver(null);
 		v.setHorizontalScrollBarEnabled(true);
 		
 		
